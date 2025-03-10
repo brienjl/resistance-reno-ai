@@ -1,5 +1,6 @@
 import { executiveOrderAnalysis } from './models/openai.js';
-import { fetchExecutiveOrderText } from './models/scraper.js';
+import { fetchExecutiveOrderText, getPathFromUrl } from './models/scraper.js';
+import { saveAnalysisToMarkdown } from './utils/markdownHandler.js';
 
 const history = [
    {
@@ -49,8 +50,14 @@ const start = async () => {
       return;
    }
 
+   console.log('✅ Executive order text retrieved. Sending to OpenAI for analysis...');
+
    const response = await executiveOrderAnalysis(history,executiveOrderText)
-   console.log(response.content)
+
+   const eoTitle = getPathFromUrl(EXECUTIVE_ORDER_URL)
+   const filePath = saveAnalysisToMarkdown(eoTitle, response.content)
+   comitAndPushToGitHub(filePath)
+
 }
 
 start();
