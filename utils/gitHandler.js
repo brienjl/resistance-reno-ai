@@ -1,6 +1,6 @@
 import { execSync } from 'child_process'
 
-const comitAndPushToGitHub = (filePath) => {
+export const comitAndPushToGitHub = (filePath) => {
     try {
         console.log(`🔄 Staging file: ${filePath}`)
         execSync(`git add ${filePath}`)

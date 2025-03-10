@@ -1,6 +1,7 @@
 import { executiveOrderAnalysis } from './models/openai.js';
 import { fetchExecutiveOrderText, getPathFromUrl } from './models/scraper.js';
 import { saveAnalysisToMarkdown } from './utils/markdownHandler.js';
+import { comitAndPushToGitHub } from './utils/gitHandler.js';
 
 const history = [
    {
@@ -40,7 +41,7 @@ Now, analyze the following executive order:
 `
    },
 ]
-const EXECUTIVE_ORDER_URL = 'https://www.whitehouse.gov/presidential-actions/2025/03/restoring-public-service-loan-forgiveness/';
+const EXECUTIVE_ORDER_URL = 'https://www.whitehouse.gov/presidential-actions/2025/03/addressing-risks-from-perkins-coie-llp/';
 
 const start = async () => {
    const executiveOrderText = await fetchExecutiveOrderText(EXECUTIVE_ORDER_URL);
