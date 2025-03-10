@@ -2,9 +2,9 @@ import { executiveOrderAnalysis } from './models/openai.js';
 import { fetchExecutiveOrderText } from './models/scraper.js';
 
 const history = [
-    {
-        role: 'system',
-        content: `
+   {
+      role: 'system',
+      content: `
 You are a legal and policy analyst specializing in U.S. executive orders.
 Your task is to analyze a given executive order and provide a structured evaluation based on the following framework:
 
@@ -37,20 +37,20 @@ Summarize the key takeaways and whether the order is likely to be **beneficial, 
 
 Now, analyze the following executive order:
 `
-    },
+   },
 ]
 const EXECUTIVE_ORDER_URL = 'https://www.whitehouse.gov/presidential-actions/2025/03/restoring-public-service-loan-forgiveness/';
 
 const start = async () => {
-    const executiveOrderText = await fetchExecutiveOrderText(EXECUTIVE_ORDER_URL);
-    
-    if (!executiveOrderText) {
-        console.log('❌ Failed to retrieve executive order text.');
-        return;
-    }
+   const executiveOrderText = await fetchExecutiveOrderText(EXECUTIVE_ORDER_URL);
+   
+   if (!executiveOrderText) {
+      console.log('❌ Failed to retrieve executive order text.');
+      return;
+   }
 
-    const response = await executiveOrderAnalysis(history,executiveOrderText)
-    console.log(response.content)
+   const response = await executiveOrderAnalysis(history,executiveOrderText)
+   console.log(response.content)
 }
 
 start();
