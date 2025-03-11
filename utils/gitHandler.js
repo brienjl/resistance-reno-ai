@@ -9,7 +9,7 @@ export const comitAndPushToGitHub = (filePath) => {
         execSync(`git commit -m "Add EO Analysis: ${filePath}"`)
 
         console.log(`🚀 Pushing to Github...`)
-        execSync(`git push orgin main`)
+        execSync(`git push origin main`)
 
         console.log(`✅ Analysis committed and pushed to GitHub`)
         
