@@ -1,25 +1,30 @@
 import fs from 'fs';
-import path from 'path';
 
-const getPathFromUrl = (url) => {
+const getFilenameFromUrl = (url) => {
     const parsedUrl = new URL(url);
-    return parsedUrl.pathname.replace('/presidential-actions/', '').replace(/\/$/, '');
+    let title = parsedUrl.pathname.split('/').filter(Boolean).pop(); // Extract last valid part of the path
+    return title || "unknown-title"; // Default title if extraction fails
 };
 
-export const saveAnalysisToMarkdown = (url, analysis) => {
-    const title = getPathFromUrl(url); // Extract EO title from URL
-    const sanitizedTitle = title.replace(/[^a-zA-Z0-9/_-]/g, "_"); // Sanitize filename
-    const filePath = `executive_order_analysis/${sanitizedTitle}.md`;
+export const saveAnalysisToMarkdown = (url, date, analysis) => {
+    const title = getFilenameFromUrl(url); // Extract EO title from URL
 
-    // Ensure the full directory path exists
-    const directoryPath = path.dirname(filePath);
-    if (!fs.existsSync(directoryPath)) {
-        fs.mkdirSync(directoryPath, { recursive: false }); // Create parent directories
+    // Sanitize filename
+    const sanitizedTitle = title.replace(/[^a-zA-Z0-9_-]/g, "_"); 
+
+    // Format filename as "YYYY-MM-DD_title.md"
+    const formattedFilename = `${date}_${sanitizedTitle}.md`;
+    const filePath = `executive_order_analysis/${formattedFilename}`;
+
+    // Ensure the directory exists
+    if (!fs.existsSync("executive_order_analysis")) {
+        fs.mkdirSync("executive_order_analysis");
     }
 
     // Construct the Markdown content
     const markdownContent = `# Executive Order Analysis: ${title}
 
+📅 **Date:** ${date}  
 🔗 **Original Executive Order:** [View on WhiteHouse.gov](${url})
 
 ---
@@ -33,4 +38,3 @@ ${analysis}
     console.log(`✅ Analysis saved to ${filePath}`);
     return filePath;
 };
-
