@@ -1,33 +1,30 @@
 # /2025/03/addressing-risks-from-perkins-coie-llp/
 
-### 1️⃣ Summary & Intent
-The executive order accuses the law firm Perkins Coie LLP of various misconducts, including engaging in deceptive practices against democratic elections, judicial handling, and racial discrimination policies. The order directs extensive federal actions, including suspension of security clearances, ceasing of government provisions to the firm, investigations into discriminatory practices, and the termination or reassessment of all federal contracts associated with Perkins Coie.
+### Summary & Intent
+The executive order aims to conduct reviews and potentially annul contracts and security clearances with the law firm Perkins Coie LLP, alleging various unethical and illegal actions. These include manipulating political processes, engaging in race-based hiring practices, and undermining the integrity of the democratic system. The order extends to review practices of other large law firms and enforce compliance with non-discrimination laws.
 
-### 2️⃣ Fact-Checking
-- **Claim:** Perkins Coie hired Fusion GPS in 2016 to manufacture a false dossier against a political candidate. 
-  - **Rating:** Partly True—Fusion GPS was hired by Perkins Coie, and the resulting dossier has been controversial; however, calling it manufactured to steal an election is an interpretation and lacks a consensus in findings.
+### Fact-Checking
+**Claims:**
+1. "Perkins Coie hired Fusion GPS to create a false ‘dossier’ to steal an election in 2016." - **Partly True**; Perkins Coie did hire Fusion GPS, which created the Steele dossier. The claim of it being manufactured to steal an election is debated and unproven.
+2. "Perkins Coie has worked with George Soros to overturn democratically enacted election laws." - **Misleading**; the connection to Soros directly influencing legal actions initiated by Perkins Coie is not substantiated.
+3. "Perkins Coie racially discriminates in hiring and promotions based on quotas." - **Mostly True**, as Perkins Coie has publicly announced diversity targets, which can be interpreted as quotas. However, the claim of exclusion specifically on the basis of race needs clearer evidence.
 
-- **Claim:** Perkins Coie has judicially overturned election laws and has been sanctioned for lack of candor.
-  - **Rating:** Mostly True—Perkins Coie has been involved in cases challenging election laws. There was an opinion by a federal appellate court describing a lack of candor from Perkins Coie attorneys, leading to a sanction.
+### Constitutionality Check
+The order could face challenges based on:
+- **First Amendment**: Targeting a specific law firm might be seen as a governmental retaliation against protected speech (legal advocacy).
+- **Due Process**: Implementing punitive measures without clear evidence or an investigation conclusion breaches due process standards.
+- **Legal Precedents and Conflicts**: Actions like denying security clearances or federal contracts without due legal process may conflict with established legal norms and rights under administrative law.
 
-- **Claim:** Perkins Coie discriminates racially by implementing quotas for hiring and promotional practices.
-  - **Rating:** Misleading—While Perkins Coie has likely implemented diversity policies, presenting them purely as discriminatory quotas without recognizing the context of promoting diversity in workplaces might be misleading.
+### Harm Assessment
+**Direct Harm**: Targeting an individual firm and its associated employees might breach individual rights and create a chilling effect on legal advocacy.
+**Legal Harm**: Potential undermining of constitutional rights like freedom of speech and due process.
+**Economic Harm**: Economic impact on Perkins Coie and potentially its clients.
+**Environmental and Global Stability Harm**: Not directly applicable based on the provided information.
 
-### 3️⃣ Constitutionality Check
-- **Scope of Executive Power and Due Process:** The executive order specifically targets one law firm, which could raise questions about preferential treatment and punitive actions without broad legislative standards.
-- **Potential Legal Conflicts:** The exhaustive nature of sanctions against a private entity might spark significant legal challenges under various statutory and constitutional provisions, including constraints on executive power and due process.
+### Final Scoring
+**Fact-Checking Score**: 0 (Mixed veracity across claims)
+**Constitutionality Score**: -3 (Several potential conflicts with constitutional protections and legal norms)
+**Harm Score**: -4 (Primarily due to potential violations of rights and economic impacts on targeted groups)
 
-### 4️⃣ Harm Assessment
-- **Direct Harm:** Targeting a specific firm negatively impacts Perkins Coie and its employees, potentially affecting their rights and livelihood without a standardized judicial process.
-- **Legal Harm:** The specificity and punitive focus may undermine principles of fair treatment under the law.
-- **Economic Harm:** Disruption in federal contracts could result in financial instability for the firm and its employees.
-- **Environmental Harm:** Not directly applicable unless the firm's closure impacts environmental legal actions.
-- **Global Stability:** Primarily a domestic issue, minimal direct impact on global stability.
-
-### 5️⃣ Final Scoring
-- **Fact-Checking Score**: -1 (Ranging from partly true to misleading)
-- **Constitutionality Score**: -3 (Considering potential overreach and due process issues)
-- **Harm Score**: -4 (Significant direct and legal harms anticipated)
-
-### 🔎 Final Verdict
-This executive order is highly controversial and appears legally vulnerable given its targeted, punitive nature against a specific legal entity. Its grounding on certain factual claims and interpretations could be challenged, both factually and constitutionally. While aiming to address real issues concerning national security and anti-discrimination, the approach could be perceived as executive overreach, possibly facing severe legal setbacks and public disapproval. The benefits proposed are overshadowed by the potential harms and constitutional concerns.
+### 🔎 Final Verdict:
+This executive order is likely to be controversial and potentially unlawful, reflecting a significant risk of legal challenges. It focuses on punitive and specifically targeted actions against Perkins Coie without sufficient justification presented in the public sections of the order. It may lead to legal disputes and criticism for potentially overstepping executive powers and undermining legal and constitutional norms. The administration may need to provide more substantial evidence and follow due process to validate and enforce such an executive order.
