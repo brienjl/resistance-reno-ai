@@ -3,10 +3,11 @@ import { fetchExecutiveOrderText } from './models/scraper.js';
 import { commitAndPushToGitHub } from './utils/gitHandler.js';
 import { saveAnalysisToMarkdown } from './utils/markdownHandler.js';
 
-const EXECUTIVE_ORDER_URL = 'https://www.whitehouse.gov/presidential-actions/2025/03/restoring-public-service-loan-forgiveness/';
 
-const start = async () => {
+const start = async (url) => {
+
     // 1️⃣ Fetch Executive Order Text and Date
+    const EXECUTIVE_ORDER_URL = url
     const { text: executiveOrderText, date } = await fetchExecutiveOrderText(EXECUTIVE_ORDER_URL);
 
     if (!executiveOrderText) {
@@ -27,4 +28,4 @@ const start = async () => {
 };
 
 // Run the script
-start();
+start('https://www.whitehouse.gov/presidential-actions/2025/03/nominations-sent-to-the-senate-8355/');
