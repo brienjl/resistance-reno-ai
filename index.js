@@ -1,12 +1,12 @@
 import { executiveOrderAnalysis } from './models/openai.js';
-import { fetchExecutiveOrderText, getPathFromUrl } from './models/scraper.js';
+import { fetchExecutiveOrderText } from './models/scraper.js';
+import { commitAndPushToGitHub } from './utils/gitHandler.js';
 import { saveAnalysisToMarkdown } from './utils/markdownHandler.js';
-import { comitAndPushToGitHub } from './utils/gitHandler.js';
 
 const history = [
-   {
-      role: 'system',
-      content: `
+    {
+        role: 'system',
+        content: `
 You are a legal and policy analyst specializing in U.S. executive orders.
 Your task is to analyze a given executive order and provide a structured evaluation based on the following framework:
 
@@ -39,26 +39,29 @@ Summarize the key takeaways and whether the order is likely to be **beneficial, 
 
 Now, analyze the following executive order:
 `
-   },
-]
-const EXECUTIVE_ORDER_URL = 'https://www.whitehouse.gov/presidential-actions/2025/03/addressing-risks-from-perkins-coie-llp/';
+    },
+];
+
+const EXECUTIVE_ORDER_URL = 'https://www.whitehouse.gov/presidential-actions/2025/03/restoring-public-service-loan-forgiveness/';
 
 const start = async () => {
-   const executiveOrderText = await fetchExecutiveOrderText(EXECUTIVE_ORDER_URL);
-   
-   if (!executiveOrderText) {
-      console.log('❌ Failed to retrieve executive order text.');
-      return;
-   }
+    const executiveOrderText = await fetchExecutiveOrderText(EXECUTIVE_ORDER_URL);
 
-   console.log('✅ Executive order text retrieved. Sending to OpenAI for analysis...');
+    if (!executiveOrderText) {
+        console.log('❌ Failed to retrieve executive order text.');
+        return;
+    }
 
-   const response = await executiveOrderAnalysis(history,executiveOrderText)
+    console.log('✅ Executive order text retrieved. Sending to OpenAI for analysis...');
 
-   const eoTitle = getPathFromUrl(EXECUTIVE_ORDER_URL)
-   const filePath = saveAnalysisToMarkdown(eoTitle, response.content)
-   comitAndPushToGitHub(filePath)
+    const response = await executiveOrderAnalysis(history, executiveOrderText);
 
-}
+    // Save analysis with original EO URL
+    const filePath = saveAnalysisToMarkdown(EXECUTIVE_ORDER_URL, response.content);
 
+    // Push to GitHub
+    commitAndPushToGitHub(filePath);
+};
+
+// Run the script
 start();

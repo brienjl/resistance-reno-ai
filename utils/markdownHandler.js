@@ -1,17 +1,36 @@
-import fs from 'fs'
+import fs from 'fs';
+import path from 'path';
 
-export const saveAnalysisToMarkdown = (title, analysis) => {
+const getPathFromUrl = (url) => {
+    const parsedUrl = new URL(url);
+    return parsedUrl.pathname.replace('/presidential-actions/', '').replace(/\/$/, '');
+};
 
-    const sanitizedTitle = title.replace(/[^a-zA-Z0-9]/g, "_")
-    const filePath = `EO-analysis/${sanitizedTitle}.md`
+export const saveAnalysisToMarkdown = (url, analysis) => {
+    const title = getPathFromUrl(url); // Extract EO title from URL
+    const sanitizedTitle = title.replace(/[^a-zA-Z0-9/_-]/g, "_"); // Sanitize filename
+    const filePath = `executive_order_analysis/${sanitizedTitle}.md`;
 
-    if (!fs.existsSync('EO-analysis')) {
-        fs.mkdirSync('EO-analysis')
+    // Ensure the full directory path exists
+    const directoryPath = path.dirname(filePath);
+    if (!fs.existsSync(directoryPath)) {
+        fs.mkdirSync(directoryPath, { recursive: false }); // Create parent directories
     }
 
-    const markdownContent = `# ${title}\n\n${analysis}`
-    fs.writeFileSync(filePath, markdownContent)
+    // Construct the Markdown content
+    const markdownContent = `# Executive Order Analysis: ${title}
 
-    console.log(`✅ Analysis Saved to ${filePath}`)
+🔗 **Original Executive Order:** [View on WhiteHouse.gov](${url})
+
+---
+
+${analysis}
+`;
+
+    // Write to file
+    fs.writeFileSync(filePath, markdownContent);
+    
+    console.log(`✅ Analysis saved to ${filePath}`);
     return filePath;
-}
+};
+

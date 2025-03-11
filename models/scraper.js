@@ -20,8 +20,3 @@ export const fetchExecutiveOrderText = async (url) => {
         return null
     }
 }
-
-export const getPathFromUrl = (url) => {
-    const parsedUrl = new URL(url)
-    return parsedUrl.pathname.replace('/presidential-actions', '')
-}
