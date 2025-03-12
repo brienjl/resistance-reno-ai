@@ -28,4 +28,4 @@ const start = async (url) => {
 };
 
 // Run the script
-start('https://www.whitehouse.gov/presidential-actions/2025/03/nominations-sent-to-the-senate-8355/');
+start('https://www.whitehouse.gov/presidential-actions/2025/03/restoring-public-service-loan-forgiveness/');
