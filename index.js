@@ -28,4 +28,4 @@ const start = async (url) => {
 };
 
 // Run the script
-start('https://www.whitehouse.gov/presidential-actions/2025/03/restoring-public-service-loan-forgiveness/');
+start('https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserveand-united-states-digital-asset-stockpile/');
