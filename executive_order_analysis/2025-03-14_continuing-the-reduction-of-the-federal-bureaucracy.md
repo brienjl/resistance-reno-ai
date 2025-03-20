@@ -123,3 +123,52 @@ Urgent policy update: Executive action threatens the stability of countless comm
 **Verdict**: This executive order is profoundly **harmful, legally dubious, and actively undermines progressive goals around housing, education, and community equity.** It weakens essential institutions, negatively impacting vulnerable populations, and sets troubling precedents for executive overreach and diminished transparency.
 
 **Recommended Action**: Immediate mobilization urging Congress to oppose this order; sustained advocacy and public awareness are urgently required to defend impacted communities and democratic norms.
+
+---
+
+## ✍️ Contact A Nevada Representative
+
+### Senator Catherine Cortez Masto (D)
+|                         |              |
+| ---                     | ---          |
+|[Online Contact Page](https://www.cortezmasto.senate.gov/contact/connect/) | |
+| Reno Office Number      | 775-686-5750 |
+| Las Vegas Office Number | 702-388-5030 |
+| D.C Number              | 202-224-7327 |
+
+### Senator Jacky Rosen (D)
+|                         |              |
+| ---                     | ---          |
+|[Online Contact Page](https://www.rosen.senate.gov/email-jacky/) | |
+| Reno Office Number      | 775-337-0110 |
+| Las Vegas Office Number | 702-388-0205 |
+| D.C Number              | 202-224-6244 |
+
+### Congresswoman Dina Titus (D) - NV District 1
+|                         |              |
+| ---                     | ---          |
+|[Online Contact Page](https://titus.house.gov/contact/) | |
+| Las Vegas Office Number | 702-220-9823 |
+| D.C Number              | 202-225-5965 |
+
+### Congressman Mark Amodei (R) - NV District 2
+|                         |              |
+| ---                     | ---          |
+|[Online Contact Page](https://amodei.house.gov/address_authentication?form=/email-me) | |
+| Reno Office Number      | 775-686-5760 |
+| Elko Office Number      | 775-777-7705 |
+| D.C Number              | 202-225-6155 |
+
+### Congresswoman Susie Lee (D) - NV District 3
+|                         |              |
+| ---                     | ---          |
+|[Online Contact Page](https://susielee.house.gov/address_authentication?form=/contact) | |
+| Las Vegas Office Number | 702-963-9336 |
+| D.C Number              | 202-225-3252 |
+
+### Congressman Steven Horsford (D) - NV District 4
+|                         |              |
+| ---                     | ---          |
+|[Online Contact Page](https://horsford.house.gov/address_authentication?form=/contact) | |
+| Las Vegas Office Number | 702-963-9360 |
+| D.C Number              | 202-225-9894 |
