@@ -13,27 +13,27 @@ Resistance Reno AI is a legal and policy analysis tool that leverages OpenAI's G
 ## Installation
 
 1. Clone the repository:
-    ```sh
+    ```
     git clone https://github.com/brienjl/resistance-reno-ai.git
     cd resistance-reno-ai
     ```
 
 2. Install dependencies:
-    ```sh
+    ```
     npm install
     ```
 
 3. Create a `.env` file in the root directory and add your OpenAI API key:
-    ```env
+    ```
     OPENAI_API_KEY=your_openai_api_key
     ```
 
 ## Usage
 
 To start the analysis, run the following command with the URL of the executive order you want to analyze:
-```sh
-node index.js https://www.whitehouse.gov/presidential-actions/...
 
+```
+node index.js https://www.whitehouse.gov/presidential-actions/...
 ```
 
 The script will:
@@ -49,17 +49,17 @@ The script will:
 resistance-reno-ai/
 ├── .env -- Store your API Key here
 ├── .gitignore
-├── index.js -- Main entry point for the script
+├── index.js -- Main entry point for the program
 ├── EO-analysis/
 ├── executive_order_analysis/
 │   ├── markdownFilesSaveHere.md
 │   ├── ...
 ├── models/
-│   ├── openai.js  -- Contains functions to interact with the OpenAI API
-│   ├── scraper.js -- Contains functions to scrape executive order text from the White House website.
+│   ├── openai.js  -- functions to interact with the OpenAI model
+│   ├── scraper.js -- functions to scrape EO from WhiteHouse.gov
 ├── utils/
-│   ├── gitHandler.js -- Contains functions to commit and push changes to GitHub.
-│   ├── markdownHandler.js -- Contains functions to save analysis results to Markdown files.
+│   ├── gitHandler.js -- function to push changes to GitHub.
+│   ├── markdownHandler.js -- functions to save as markdown.
 
 ```
 
