@@ -1,0 +1,66 @@
+import axios from 'axios'
+import * as cheerio from 'cheerio'
+import fs from 'fs'
+import path from 'path'
+
+const EXEC_ORDERS_URL = 'https://www.whitehouse.gov/presidential-actions/executive-orders/';
+const JSON_FILE = path.resolve('executive_orders.json');
+
+const getToday = () => new Date().toISOString().split('T')[0];  // 2025-04-06 | YYYY-mm-DD
+
+export const fetchTodaysExecutiveOrders = async () => {
+    //const today = getToday();
+    const today = '2025-04-02'
+    const output = [];
+
+    try {
+        console.log(`🔎 Fetching executive orders from: ${EXEC_ORDERS_URL}`);
+        const { data } = await axios.get(EXEC_ORDERS_URL);
+        const $ = cheerio.load(data);
+
+        $('li').each((_, el) => {
+            const timeTag = $(el).find('time');
+            const date = timeTag.attr('datetime')?.split('T')[0];
+            const title = $(el).find('h2').text().trim();
+            const relativeUrl = $(el).find('a').attr('href');
+            const url = relativeUrl ? `${relativeUrl}` : null;
+
+            if (date === today && url) {
+                output.push({ title, url });
+            }
+        });
+
+        if (output.length === 0) {
+            console.warn(`⚠️ No executive orders found for today (${today}).`);
+            return;
+        }
+
+        // Load or initialize the JSON file
+        let existingData = {};
+        if (fs.existsSync(JSON_FILE)) {
+            const raw = fs.readFileSync(JSON_FILE);
+            existingData = JSON.parse(raw);
+        }
+
+        // Prevent duplicates
+        const urlsToday = new Set(existingData[today]?.map(entry => entry.url) || []);
+        const newEntries = output.filter(entry => !urlsToday.has(entry.url));
+
+        if (newEntries.length === 0) {
+            console.warn(`📭 No new executive orders to add for today.`);
+            return;
+        }
+
+        // Append today's entries
+        existingData[today] = [...(existingData[today] || []), ...newEntries];
+        fs.writeFileSync(JSON_FILE, JSON.stringify(existingData, null, 2));
+
+        console.log(`✅ Added ${newEntries.length} executive order(s) to ${JSON_FILE}`);
+
+    } catch (error) {
+        console.error(`❌ Error during scraping:`, error.message);
+    }
+};
+
+// Run when called directly
+fetchTodaysExecutiveOrders();

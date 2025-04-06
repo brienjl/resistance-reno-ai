@@ -1,5 +1,5 @@
 import { executiveOrderAnalysis, history } from './models/openai.js';
-import { fetchExecutiveOrderText } from './models/scraper.js';
+import { fetchExecutiveOrderText } from './models/getExecutiveOrder.js';
 import { commitAndPushToGitHub } from './utils/gitHandler.js';
 import { saveAnalysisToMarkdown } from './utils/markdownHandler.js';
 
