@@ -9,8 +9,8 @@ const JSON_FILE = path.resolve('executive_orders.json');
 const getToday = () => new Date().toISOString().split('T')[0];  // 2025-04-06 | YYYY-mm-DD
 
 export const fetchTodaysExecutiveOrders = async () => {
-    //const today = getToday();
-    const today = '2025-04-02'
+    const today = getToday();
+    //const today = '2025-04-02'
     const output = [];
 
     try {
@@ -31,7 +31,7 @@ export const fetchTodaysExecutiveOrders = async () => {
         });
 
         if (output.length === 0) {
-            console.warn(`⚠️ No executive orders found for today (${today}).`);
+            console.warn(`⚠️ No executive orders found on the WhiteHouse website: (${today}).`);
             return;
         }
 
@@ -47,7 +47,7 @@ export const fetchTodaysExecutiveOrders = async () => {
         const newEntries = output.filter(entry => !urlsToday.has(entry.url));
 
         if (newEntries.length === 0) {
-            console.warn(`📭 No new executive orders to add for today.`);
+            console.warn(`📭 No new executive orders to add to json file.`);
             return;
         }
 
@@ -62,5 +62,5 @@ export const fetchTodaysExecutiveOrders = async () => {
     }
 };
 
-// Run when called directly
-fetchTodaysExecutiveOrders();
+
+// fetchTodaysExecutiveOrders();
