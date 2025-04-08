@@ -104,11 +104,11 @@ resistance-reno-ai/
 
 ## Project Architecture
 
-### Application Flow
+### Logic Flow
 
 ```mermaid
 flowchart TD
-    A[Start: Run index.js] --> B[Scrape WhiteHouse.gov for today's EOs]
+    A(((Start: Run index.js))) --> B[Scrape WhiteHouse.gov for today's EOs]
     B --> C[Append EO metadata to executive_orders.json]
     C --> D{Any unprocessed EOs?}
     D -- Yes --> E[Loop through EO URLs]
@@ -116,16 +116,15 @@ flowchart TD
     F --> G[Send text to OpenAI for analysis]
     G --> H[Save analysis as Markdown]
     H --> I[Commit and Push to GitHub]
-    I --> J[Mark EO as processed in JSON]
-    D -- No --> K[Exit: Nothing to process]
+    I --> J(((Mark EO as processed in JSON)))
+    D -- No --> K(((Exit: Nothing to process)))
 
-    style A fill:#cce5ff,stroke:#000
-    style G fill:#ffe0b2,stroke:#000
-    style H fill:#d1ffd1,stroke:#000
-    style I fill:#f9d,stroke:#000
+    style A fill:#d1ffd1,stroke:#000
+    style D fill:#cce5ff,stroke:#000
+    style J fill:#f9d,stroke:#000
+    style K fill:#f9d,stroke:#000
+
 ```
-
-
 
 ## Contributions
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
