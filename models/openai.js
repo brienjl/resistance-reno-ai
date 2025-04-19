@@ -6,7 +6,7 @@ export const openai = new OpenAI()
 export const executiveOrderAnalysis = async (history, executiveOrderText) => {
     const chatCompletion = await openai.chat.completions.create({
         messages: [ ...history, {role: 'user', content: executiveOrderText }],
-        model: 'gpt-4.5-preview-2025-02-27',
+        model: 'o3-mini-2025-01-31'
     })
     return chatCompletion.choices[0].message
 }

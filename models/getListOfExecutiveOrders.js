@@ -10,7 +10,7 @@ const getToday = () => new Date().toISOString().split('T')[0];  // 2025-04-06 | 
 
 export const fetchTodaysExecutiveOrders = async () => {
     const today = getToday();
-    //const today = '2025-04-02'
+    //const today = '2025-04-15'
     const output = [];
 
     try {
@@ -63,4 +63,4 @@ export const fetchTodaysExecutiveOrders = async () => {
 };
 
 
-// fetchTodaysExecutiveOrders();
+//fetchTodaysExecutiveOrders();

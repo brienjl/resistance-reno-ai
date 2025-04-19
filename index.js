@@ -41,8 +41,8 @@ const processExecutiveOrder = async (url) => {
  * - Updates the master JSON file with `"processed": true` for each successful EO
  */
 const processTodaysExecutiveOrders = async () => {
-    //const today = getToday();
-    const today = '2025-04-02'
+    const today = getToday();
+    //const today = '2025-04-15'
 
     // Make sure the executive_orders.json file exists
     if (!fs.existsSync(JSON_FILE)) {
