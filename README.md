@@ -40,7 +40,7 @@ Resistance Reno AI is a legal and policy analysis tool that leverages OpenAI's G
 | Feature	                           | Feature Goal                                   |
 | ---                                  | ---                                            |
 | Community bot integration (discord)  | Posts EO summaries in a Discord thread         |
-| Static site or blog (w/Hugo)	       | Auto-generate pages/posts from Markdown files  |
+| Static site or blog (w/Hugo or 11ty) | Auto-generate pages/posts from Markdown files  |
 | Dashboard (w/ D3 or Chart.js)        | Visual summaries: scores, trends, etc.         |
 | Search + filter UI (tags via Hugo)   | Find EOs by score, keywords, date, or verdict  |
 
