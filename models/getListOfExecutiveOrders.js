@@ -6,11 +6,14 @@ import path from 'path'
 const EXEC_ORDERS_URL = 'https://www.whitehouse.gov/presidential-actions/executive-orders/';
 const JSON_FILE = path.resolve('executive_orders.json');
 
-const getToday = () => new Date().toISOString().split('T')[0];  // 2025-04-06 | YYYY-mm-DD
+// Get today's date in YYYY-MM-DD format and PST timezone
+const getToday = () => {
+    return new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
+};
 
 export const fetchTodaysExecutiveOrders = async () => {
     const today = getToday();
-    //const today = '2025-04-15'
+    //const today = '2025-04-23'
     const output = [];
 
     try {

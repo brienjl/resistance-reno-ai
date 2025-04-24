@@ -9,8 +9,10 @@ import { saveAnalysisToMarkdown } from './utils/markdownHandler.js';
 // Location of the master JSON file that stores EO metadata
 const JSON_FILE = path.resolve('executive_orders.json');
 
-// Get today's date in YYYY-MM-DD format
-const getToday = () => new Date().toISOString().split('T')[0];
+// Get today's date in YYYY-MM-DD format and PST timezone
+const getToday = () => {
+    return new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
+};
 
 /**
  * 🔎 Process a single executive order:
@@ -42,7 +44,7 @@ const processExecutiveOrder = async (url) => {
  */
 const processTodaysExecutiveOrders = async () => {
     const today = getToday();
-    //const today = '2025-04-15'
+    //const today = '2025-04-23'
 
     // Make sure the executive_orders.json file exists
     if (!fs.existsSync(JSON_FILE)) {

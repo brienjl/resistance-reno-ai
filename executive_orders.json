@@ -55,5 +55,42 @@
       "url": "https://www.whitehouse.gov/presidential-actions/2025/04/restoring-common-sense-to-federal-procurement/",
       "processed": true
     }
+  ],
+  "2025-04-23": [
+    {
+      "title": "Advancing Artificial Intelligence Education for American Youth",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/04/advancing-artificial-intelligence-education-for-american-youth/",
+      "processed": true
+    },
+    {
+      "title": "Restoring Equality of Opportunity and Meritocracy",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/04/restoring-equality-of-opportunity-and-meritocracy/",
+      "processed": true
+    },
+    {
+      "title": "Reinstating Common Sense School Discipline Policies",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/04/reinstating-common-sense-school-discipline-policies/",
+      "processed": true
+    },
+    {
+      "title": "Preparing Americans for High-Paying Skilled Trade Jobs of the Future",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/04/preparing-americans-for-high-paying-skilled-trade-jobs-of-the-future/",
+      "processed": true
+    },
+    {
+      "title": "White House Initiative to Promote Excellence and Innovation at Historically Black Colleges and Universities",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/04/white-house-initiative-to-promote-excellence-and-innovation-at-historically-black-colleges-and-universities/",
+      "processed": true
+    },
+    {
+      "title": "Reforming Accreditation to Strengthen Higher Education",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/04/reforming-accreditation-to-strengthen-higher-education/",
+      "processed": true
+    },
+    {
+      "title": "Transparency Regarding Foreign Influence at American Universities",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/04/transparency-regarding-foreign-influence-at-american-universities/",
+      "processed": true
+    }
   ]
 }
