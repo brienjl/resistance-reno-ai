@@ -3,6 +3,8 @@ import * as cheerio from 'cheerio'
 import fs from 'fs'
 import path from 'path'
 
+import { commitAndPushToGitHub } from './utils/gitHandler.js';
+
 const EXEC_ORDERS_URL = 'https://www.whitehouse.gov/presidential-actions/executive-orders/';
 const JSON_FILE = path.resolve('executive_orders.json');
 
@@ -59,6 +61,8 @@ export const fetchTodaysExecutiveOrders = async () => {
         fs.writeFileSync(JSON_FILE, JSON.stringify(existingData, null, 2));
 
         console.log(`✅ Added ${newEntries.length} executive order(s) to ${JSON_FILE}`);
+
+        commitAndPushToGitHub(JSON_FILE);
 
     } catch (error) {
         console.error(`❌ Error during scraping:`, error.message);
