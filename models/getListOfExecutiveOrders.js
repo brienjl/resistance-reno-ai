@@ -3,7 +3,7 @@ import * as cheerio from 'cheerio'
 import fs from 'fs'
 import path from 'path'
 
-import { commitAndPushToGitHub } from './utils/gitHandler.js';
+import { commitAndPushToGitHub } from '../utils/gitHandler.js';
 
 const EXEC_ORDERS_URL = 'https://www.whitehouse.gov/presidential-actions/executive-orders/';
 const JSON_FILE = path.resolve('executive_orders.json');
