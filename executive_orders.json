@@ -144,11 +144,27 @@
   "2025-05-05": [
     {
       "title": "Regulatory Relief to Promote Domestic Production of Critical Medicines",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/05/regulatory-relief-to-promote-domestic-production-of-critical-medicines/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/05/regulatory-relief-to-promote-domestic-production-of-critical-medicines/",
+      "processed": true
     },
     {
       "title": "Improving the Safety and Security of Biological Research",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/05/improving-the-safety-and-security-of-biological-research/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/05/improving-the-safety-and-security-of-biological-research/",
+      "processed": true
+    }
+  ],
+  "2025-05-09": [
+    {
+      "title": "Keeping Promises to Veterans and Establishing a National Center for Warrior Independence",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/05/keeping-promises-to-veterans-and-establishing-a-national-center-for-warrior-independence/"
+    },
+    {
+      "title": "Increasing Efficiency At the Office of the Federal Register",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/05/increasing-efficiency-at-the-office-of-the-federal-register/"
+    },
+    {
+      "title": "Fighting Overcriminalization in Federal Regulations",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/05/fighting-overcriminalization-in-federal-regulations/"
     }
   ]
 }
