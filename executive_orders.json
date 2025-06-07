@@ -185,19 +185,41 @@
   "2025-05-23": [
     {
       "title": "Ordering the Reform of the Nuclear Regulatory Commission",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/05/ordering-the-reform-of-the-nuclear-regulatory-commission/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/05/ordering-the-reform-of-the-nuclear-regulatory-commission/",
+      "processed": true
     },
     {
       "title": "Reforming Nuclear Reactor Testing at the Department of Energy",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/05/reforming-nuclear-reactor-testing-at-the-department-of-energy/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/05/reforming-nuclear-reactor-testing-at-the-department-of-energy/",
+      "processed": true
     },
     {
       "title": "Reinvigorating the Nuclear Industrial Base",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/05/reinvigorating-the-nuclear-industrial-base/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/05/reinvigorating-the-nuclear-industrial-base/",
+      "processed": true
     },
     {
       "title": "Restoring Gold Standard Science",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/05/restoring-gold-standard-science/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/05/restoring-gold-standard-science/",
+      "processed": true
+    }
+  ],
+  "2025-06-06": [
+    {
+      "title": "Leading The World in Supersonic Flight",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/06/leading-the-world-in-supersonic-flight/"
+    },
+    {
+      "title": "Restoring American Airspace Sovereignty",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/06/restoring-american-airspace-sovereignty/"
+    },
+    {
+      "title": "Unleashing American Drone Dominance",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/06/unleashing-american-drone-dominance/"
+    },
+    {
+      "title": "Sustaining Select Efforts to Strengthen the Nation’s Cybersecurity and Amending Executive Order 13694 and Executive Order 14144",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/06/sustaining-select-efforts-to-strengthen-the-nations-cybersecurity-and-amending-executive-order-13694-and-executive-order-14144/"
     }
   ]
 }
