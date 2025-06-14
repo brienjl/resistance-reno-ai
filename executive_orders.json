@@ -229,7 +229,14 @@
   "2025-06-12": [
     {
       "title": "Empowering Commonsense Wildfire Prevention and Response",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/06/empowering-commonsense-wildfire-prevention-and-response/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/06/empowering-commonsense-wildfire-prevention-and-response/",
+      "processed": true
+    }
+  ],
+  "2025-06-13": [
+    {
+      "title": "Regarding the Proposed Acquisition of the United States Steel Corporation by Nippon Steel Corporation",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/06/regarding-the-proposed-acquisition-of-the-united-states-steel-corporation-by-nippon-steel-corporation/"
     }
   ]
 }
