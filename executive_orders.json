@@ -243,7 +243,14 @@
   "2025-06-16": [
     {
       "title": "Implementing the General Terms of The United States of America-United Kingdom Economic Prosperity Deal",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/06/implementing-the-general-terms-of-the-united-states-of-america-united-kingdom-economic-prosperity-deal/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/06/implementing-the-general-terms-of-the-united-states-of-america-united-kingdom-economic-prosperity-deal/",
+      "processed": true
+    }
+  ],
+  "2025-06-19": [
+    {
+      "title": "Further Extending the TikTok Enforcement Delay",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/06/further-extending-the-tiktok-enforcement-delay/"
     }
   ]
 }
