@@ -107,4 +107,4 @@ const run = async () => {
 run();
 
 
-//processExecutiveOrder() will take in a url and you can run that EO individually if there's errors
+// processExecutiveOrder('url here') //will take in a url and you can run that EO individually if there's errors
