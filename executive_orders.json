@@ -276,11 +276,13 @@
   "2025-07-07": [
     {
       "title": "Extending the Modification of the Reciprocal Tariff Rates",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/extending-the-modification-of-the-reciprocal-tariff-rates/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/extending-the-modification-of-the-reciprocal-tariff-rates/",
+      "processed": true
     },
     {
       "title": "Ending Market Distorting Subsidies for Unreliable, Foreign‑Controlled Energy Sources",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/ending-market-distorting-subsidies-for-unreliable-foreign%e2%80%91controlled-energy-sources/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/ending-market-distorting-subsidies-for-unreliable-foreign%e2%80%91controlled-energy-sources/",
+      "processed": true
     }
   ]
 }
