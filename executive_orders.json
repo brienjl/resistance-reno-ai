@@ -295,15 +295,28 @@
   "2025-07-23": [
     {
       "title": "Promoting The Export of the American AI Technology Stack",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/promoting-the-export-of-the-american-ai-technology-stack/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/promoting-the-export-of-the-american-ai-technology-stack/",
+      "processed": true
     },
     {
       "title": "Accelerating Federal Permitting of Data Center Infrastructure",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/accelerating-federal-permitting-of-data-center-infrastructure/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/accelerating-federal-permitting-of-data-center-infrastructure/",
+      "processed": true
     },
     {
       "title": "Preventing Woke AI in the Federal Government",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/preventing-woke-ai-in-the-federal-government/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/preventing-woke-ai-in-the-federal-government/",
+      "processed": true
+    }
+  ],
+  "2025-07-24": [
+    {
+      "title": "Saving College Sports",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/saving-college-sports/"
+    },
+    {
+      "title": "Ending Crime and Disorder on America’s Streets",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/ending-crime-and-disorder-on-americas-streets/"
     }
   ]
 }
