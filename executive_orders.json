@@ -312,11 +312,23 @@
   "2025-07-24": [
     {
       "title": "Saving College Sports",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/saving-college-sports/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/saving-college-sports/",
+      "processed": true
     },
     {
       "title": "Ending Crime and Disorder on America’s Streets",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/ending-crime-and-disorder-on-americas-streets/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/ending-crime-and-disorder-on-americas-streets/",
+      "processed": true
+    }
+  ],
+  "2025-07-30": [
+    {
+      "title": "Suspending Duty-Free De Minimis Treatment for All Countries",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/suspending-duty-free-de-minimis-treatment-for-all-countries/"
+    },
+    {
+      "title": "Addressing Threats to The United States by the Government of Brazil",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/addressing-threats-to-the-us/"
     }
   ]
 }
