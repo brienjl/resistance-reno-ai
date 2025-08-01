@@ -324,11 +324,27 @@
   "2025-07-30": [
     {
       "title": "Suspending Duty-Free De Minimis Treatment for All Countries",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/suspending-duty-free-de-minimis-treatment-for-all-countries/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/suspending-duty-free-de-minimis-treatment-for-all-countries/",
+      "processed": true
     },
     {
       "title": "Addressing Threats to The United States by the Government of Brazil",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/addressing-threats-to-the-us/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/addressing-threats-to-the-us/",
+      "processed": true
+    }
+  ],
+  "2025-07-31": [
+    {
+      "title": "Amendment to Duties to Address the Flow of Illicit Drugs Across Our Northern Border",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/amendment-to-duties-to-address-the-flow-of-illicit-drugs-across-our-northern-border-9350/"
+    },
+    {
+      "title": "Further Modifying the Reciprocal Tariff Rates",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/further-modifying-the-reciprocal-tariff-rates/"
+    },
+    {
+      "title": "President’s Council on Sports, Fitness, and Nutrition, and the Reesetablishment of the Presidential Fitness Test",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/presidents-council-on-sports-fitness-and-nutrition-and-the-reesetablishment-of-the-presidential-fitness-test/"
     }
   ]
 }
