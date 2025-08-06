@@ -336,15 +336,24 @@
   "2025-07-31": [
     {
       "title": "Amendment to Duties to Address the Flow of Illicit Drugs Across Our Northern Border",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/amendment-to-duties-to-address-the-flow-of-illicit-drugs-across-our-northern-border-9350/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/amendment-to-duties-to-address-the-flow-of-illicit-drugs-across-our-northern-border-9350/",
+      "processed": true
     },
     {
       "title": "Further Modifying the Reciprocal Tariff Rates",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/further-modifying-the-reciprocal-tariff-rates/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/further-modifying-the-reciprocal-tariff-rates/",
+      "processed": true
     },
     {
       "title": "President’s Council on Sports, Fitness, and Nutrition, and the Reesetablishment of the Presidential Fitness Test",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/presidents-council-on-sports-fitness-and-nutrition-and-the-reesetablishment-of-the-presidential-fitness-test/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/07/presidents-council-on-sports-fitness-and-nutrition-and-the-reesetablishment-of-the-presidential-fitness-test/",
+      "processed": true
+    }
+  ],
+  "2025-08-05": [
+    {
+      "title": "Establishing the White House Task Force on the 2028 Summer Olympics",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/establishing-the-white-house-task-force-on-the-2028-summer-olympics/"
     }
   ]
 }
