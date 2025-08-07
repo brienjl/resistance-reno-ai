@@ -353,7 +353,14 @@
   "2025-08-05": [
     {
       "title": "Establishing the White House Task Force on the 2028 Summer Olympics",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/establishing-the-white-house-task-force-on-the-2028-summer-olympics/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/establishing-the-white-house-task-force-on-the-2028-summer-olympics/",
+      "processed": true
+    }
+  ],
+  "2025-08-06": [
+    {
+      "title": "Addressing Threats to The United States by the Government of the Russian Federation",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/addressing-threats-to-the-united-states-by-the-government-of-the-russian-federation/"
     }
   ]
 }
