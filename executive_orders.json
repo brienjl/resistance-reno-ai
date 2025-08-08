@@ -360,7 +360,22 @@
   "2025-08-06": [
     {
       "title": "Addressing Threats to The United States by the Government of the Russian Federation",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/addressing-threats-to-the-united-states-by-the-government-of-the-russian-federation/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/addressing-threats-to-the-united-states-by-the-government-of-the-russian-federation/",
+      "processed": true
+    }
+  ],
+  "2025-08-07": [
+    {
+      "title": "Democratizing Access to Alternative Assets for 401(K) Investors",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/democratizing-access-to-alternative-assets-for-401k-investors/"
+    },
+    {
+      "title": "Guaranteeing Fair Banking For All Americans",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/guaranteeing-fair-banking-for-all-americans/"
+    },
+    {
+      "title": "Improving Oversight of Federal Grantmaking",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/improving-oversight-of-federal-grantmaking/"
     }
   ]
 }
