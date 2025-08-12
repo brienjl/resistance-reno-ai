@@ -367,15 +367,28 @@
   "2025-08-07": [
     {
       "title": "Democratizing Access to Alternative Assets for 401(K) Investors",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/democratizing-access-to-alternative-assets-for-401k-investors/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/democratizing-access-to-alternative-assets-for-401k-investors/",
+      "processed": true
     },
     {
       "title": "Guaranteeing Fair Banking For All Americans",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/guaranteeing-fair-banking-for-all-americans/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/guaranteeing-fair-banking-for-all-americans/",
+      "processed": true
     },
     {
       "title": "Improving Oversight of Federal Grantmaking",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/improving-oversight-of-federal-grantmaking/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/improving-oversight-of-federal-grantmaking/",
+      "processed": true
+    }
+  ],
+  "2025-08-11": [
+    {
+      "title": "Further Modifying Reciprocal Tariff Rates to Reflect Ongoing Discussions with The People’s Republic of China",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/further-modifying-reciprocal-tariff-rates-to-reflect-ongoing-discussions-with-the-peoples-republic-of-china/"
+    },
+    {
+      "title": "Declaring a Crime Emergency in the District of Columbia",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/declaring-a-crime-emergency-in-the-district-of-columbia/"
     }
   ]
 }
