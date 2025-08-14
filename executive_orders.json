@@ -384,11 +384,27 @@
   "2025-08-11": [
     {
       "title": "Further Modifying Reciprocal Tariff Rates to Reflect Ongoing Discussions with The People’s Republic of China",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/further-modifying-reciprocal-tariff-rates-to-reflect-ongoing-discussions-with-the-peoples-republic-of-china/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/further-modifying-reciprocal-tariff-rates-to-reflect-ongoing-discussions-with-the-peoples-republic-of-china/",
+      "processed": true
     },
     {
       "title": "Declaring a Crime Emergency in the District of Columbia",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/declaring-a-crime-emergency-in-the-district-of-columbia/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/declaring-a-crime-emergency-in-the-district-of-columbia/",
+      "processed": true
+    }
+  ],
+  "2025-08-13": [
+    {
+      "title": "Revocation of Executive Order on Competition",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/revocation-of-executive-order-on-competition/"
+    },
+    {
+      "title": "Enabling Competition in the Commercial Space Industry",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/enabling-competition-in-the-commercial-space-industry/"
+    },
+    {
+      "title": "Ensuring American Pharmaceutical Supply Chain Resilience by Filling the Strategic Active Pharmaceutical Ingredients Reserve",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/ensuring-american-pharmaceutical-supply-chain-resilience-by-filling-the-strategic-active-pharmaceutical-ingredients-reserve/"
     }
   ]
 }
