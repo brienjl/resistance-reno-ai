@@ -396,15 +396,18 @@
   "2025-08-13": [
     {
       "title": "Revocation of Executive Order on Competition",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/revocation-of-executive-order-on-competition/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/revocation-of-executive-order-on-competition/",
+      "processed": true
     },
     {
       "title": "Enabling Competition in the Commercial Space Industry",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/enabling-competition-in-the-commercial-space-industry/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/enabling-competition-in-the-commercial-space-industry/",
+      "processed": true
     },
     {
       "title": "Ensuring American Pharmaceutical Supply Chain Resilience by Filling the Strategic Active Pharmaceutical Ingredients Reserve",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/ensuring-american-pharmaceutical-supply-chain-resilience-by-filling-the-strategic-active-pharmaceutical-ingredients-reserve/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/ensuring-american-pharmaceutical-supply-chain-resilience-by-filling-the-strategic-active-pharmaceutical-ingredients-reserve/",
+      "processed": true
     }
   ]
 }
