@@ -19,6 +19,8 @@ Resistance Reno AI is a legal and policy analysis tool that leverages OpenAI's G
 - ✅ Tracks processed orders to avoid duplication
 - ✅ JSON-based tracking system for durability and querying
 - ✅ "processed": true tracking to ID processed EOs
+- ✅ Daily schedule via cron	Automatically
+- ✅ Log files to Track what ran and when — helpful for debugging automation (via cron job)
 
 ## 🧭 Roadmap
 ### 🔨 Core Workflow Enhancements
@@ -28,12 +30,10 @@ Resistance Reno AI is a legal and policy analysis tool that leverages OpenAI's G
 |  Markdown archive by year/month	   | Keeps GitHub repo organized as it grows                               |
 |  CLI query tool                      |(e.g., --date, --unprocessed) Easily run queries or rerun a day        |
 |  Auto-folder Markdown by year        | (2025/2025-04-06_title.md) Better organization in GitHub & local repo |
-|  Log file (logs/)	                   | Track what ran and when — helpful for debugging automation            |
 
 ### 🔁 Automation Enhancements
 | Feature                              | Feature Goal                                   |
 | ----                                 | ----                                           |
-| Daily schedule via cron	           | Automatically run node index.js every evening  |
 | Email or Slack notifications         | Know when new EOs drop (or if something fails) |
 
 ### 💬 Community Sharing / Frontend Features
