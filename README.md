@@ -19,6 +19,8 @@ Resistance Reno AI is a legal and policy analysis tool that leverages OpenAI's G
 - ✅ Tracks processed orders to avoid duplication
 - ✅ JSON-based tracking system for durability and querying
 - ✅ "processed": true tracking to ID processed EOs
+- ✅ Daily schedule via cron	Automatically
+- ✅ Log files to Track what ran and when — helpful for debugging automation (via cron job)
 
 ## 🧭 Roadmap
 ### 🔨 Core Workflow Enhancements
@@ -28,12 +30,10 @@ Resistance Reno AI is a legal and policy analysis tool that leverages OpenAI's G
 |  Markdown archive by year/month	   | Keeps GitHub repo organized as it grows                               |
 |  CLI query tool                      |(e.g., --date, --unprocessed) Easily run queries or rerun a day        |
 |  Auto-folder Markdown by year        | (2025/2025-04-06_title.md) Better organization in GitHub & local repo |
-|  Log file (logs/)	                   | Track what ran and when — helpful for debugging automation            |
 
 ### 🔁 Automation Enhancements
 | Feature                              | Feature Goal                                   |
 | ----                                 | ----                                           |
-| Daily schedule via cron	           | Automatically run node index.js every evening  |
 | Email or Slack notifications         | Know when new EOs drop (or if something fails) |
 
 ### 💬 Community Sharing / Frontend Features
@@ -88,41 +88,39 @@ processExecutiveOrder('directURL');
 
 ```
 resistance-reno-ai/
-├── .env                      # Store your API keys here
 ├── index.js                  # Main entry point and orchestrator
-├── executive_orders.json     # Tracks all discovered EOs and processed status
-├── executive_order_analysis/ # Markdown output folder
+├── executive_order_analysis/ # Main output folder (markdown analysis drops here)
 ├── models/
 │   ├── openai.js                    # OpenAI API interactions
-│   ├── scraper.js                   # Fetches full EO text from individual EO pages
 │   ├── fetchDailyExecutiveOrders.js # Scrapes EO titles + URLs from the main WH page
+│   ├── scraper.js                   # Fetches full EO text from individual EO pages
 ├── utils/
-│   ├── gitHandler.js           # Commits + pushes files to GitHub
-│   ├── markdownHandler.js      # Formats and saves Markdown files
+│   ├── gitHandler.js                # Commits + pushes files to GitHub
+│   ├── markdownHandler.js           # Formats and saves Markdown files to main output folder
+├── .env                      # Store your API keys here
+├── .gitignore                # ignore env variables, node_modules, and server log files
+├── executive_orders.json     # Tracks all EOs and their processed status
 
 ```
 
 ## Project Architecture
 
-### Logic Flow
+### Project Diagram
 
 ```mermaid
-flowchart TD
-    A(((Start: Run index.js))) --> B[Scrape WhiteHouse.gov for today's EOs]
-    B --> C[Append EO metadata to executive_orders.json]
-    C --> D{Any unprocessed EOs?}
-    D -- Yes --> E[Loop through EO URLs]
-    E --> F[Fetch full EO text and date]
-    F --> G[Send text to OpenAI for analysis]
-    G --> H[Save analysis as Markdown]
-    H --> I[Commit and Push to GitHub]
-    I --> J(((Mark EO as processed in JSON)))
-    D -- No --> K(((Exit: Nothing to process)))
-
-    style A fill:#d1ffd1,stroke:#000
-    style D fill:#cce5ff,stroke:#000
-    style J fill:#f9d,stroke:#000
-    style K fill:#f9d,stroke:#000
+flowchart LR
+    index.js ==> | check for new EOs       | fetchDailyEO.js
+    fetchDailyEO.js             -.-> WHSP[[WHITEHOUSE.GOV EO Snippets Page]]
+    index.js ==> | track processing status | executive_order.json
+    index.js ==> | get latest text/EO      | scraper.js
+    scraper.js                  -.->WHEO[[WHITEHOUSE.GOV EO Page]]
+    index.js ==> | send EO and prompt      | openai.js
+    openai.js                   -.->LLM[[OpenAI API Call]]
+    LLM                         -.-> openai.js
+    index.js ==> | save analysis           | markdownHandler.js
+    openai.js ==> markdownHandler.js
+    markdownHandler.js ==> gitHandler.js
+    gitHandler.js                -.->gitHub[[GitHub]]
 
 ```
 
