@@ -442,11 +442,13 @@
   "2025-08-28": [
     {
       "title": "Making Federal Architecture Beautiful Again",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/making-federal-architecture-beautiful-again/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/making-federal-architecture-beautiful-again/",
+      "processed": true
     },
     {
       "title": "Further Exclusions from the Federal Labor-Management Relations Program",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/further-exclusions-from-the-federal-labor-management-relations-program/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/08/further-exclusions-from-the-federal-labor-management-relations-program/",
+      "processed": true
     }
   ]
 }
