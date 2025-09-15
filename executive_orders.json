@@ -461,15 +461,18 @@
   "2025-09-05": [
     {
       "title": "Restoring the United States Department of War",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/09/restoring-the-united-states-department-of-war/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/09/restoring-the-united-states-department-of-war/",
+      "processed": true
     },
     {
       "title": "Modifying The Scope of Reciprocal Tariffs and Establishing Procedures for Implementing Trade and Security Agreements",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/09/modifying-the-scope-of-reciprocal-tariffs-and-establishing-procedures-for-implementing-trade-and-security-agreements/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/09/modifying-the-scope-of-reciprocal-tariffs-and-establishing-procedures-for-implementing-trade-and-security-agreements/",
+      "processed": true
     },
     {
       "title": "Strengthening Efforts to Protect U.S. Nationals from Wrongful Detention Abroad",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/09/strengthening-efforts-to-protect-u-s-nationals-from-wrongful-detention-abroad/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/09/strengthening-efforts-to-protect-u-s-nationals-from-wrongful-detention-abroad/",
+      "processed": true
     }
   ]
 }
