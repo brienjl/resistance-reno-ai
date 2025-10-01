@@ -511,7 +511,14 @@
   "2025-09-29": [
     {
       "title": "Continuance of Certain Federal Advisory Committees",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/09/continuance-of-certain-federal-advisory-committees/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/09/continuance-of-certain-federal-advisory-committees/",
+      "processed": true
+    }
+  ],
+  "2025-09-30": [
+    {
+      "title": "Unlocking Cures for Pediatric Cancer with Artificial Intelligence",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/09/unlocking-cures-for-pediatric-cancer-with-artificial-intelligence/"
     }
   ]
 }
