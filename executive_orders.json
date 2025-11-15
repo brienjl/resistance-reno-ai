@@ -537,7 +537,14 @@
   "2025-11-13": [
     {
       "title": "FOSTERING THE FUTURE FOR AMERICAN CHILDREN AND FAMILIES",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/11/fostering-the-future-for-american-children-and-families/"
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/11/fostering-the-future-for-american-children-and-families/",
+      "processed": true
+    }
+  ],
+  "2025-11-14": [
+    {
+      "title": "Modifying the Scope of the Reciprocal Tariff with Respect to Certain Agricultural Products",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/11/modifying-the-scope-of-the-reciprocal-tariff-with-respect-to-certain-agricultural-products/"
     }
   ]
 }
